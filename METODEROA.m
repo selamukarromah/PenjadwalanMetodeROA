@@ -48,12 +48,14 @@ clc;
 ##  ];
 
 x=[
-    12 8 7 15 4;
-    7 9 1 14 10;
-    9 6 12 6 7;
-    7 6 14 6 10;
-    9 6 12 10 6
+    12 8  7 15  4;
+     7 9  1 14 10;
+     9 6 12  6  7;
+     7 6 14  6 10;
+     9 6 12 10  6
   ];
+
+num_classroom = 5
 
 dim_square=max(size(x,1),size(x,2));
 x_square=inf([dim_square,dim_square]);
